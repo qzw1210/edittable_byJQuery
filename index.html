@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>editable Table</title>
+<style type="text/css">
+</style>
+<link href="styles/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="script/jquery.min.js"></script> 
+<script type="text/javascript" src="script/EdTable.js"></script> 
+<script type="text/javascript">
+
+// 页面初始化完成后添加绑定事件
+$(document).ready(function(){
+	EdTable.initBindGridEvent();
+});
+
+</script>
+</head>
+
+<body>
+
+<table class="editableTable" id="editableTable">
+	<thead>
+		<tr>
+			<th>Item1</th>
+			<th>Item2</th>
+			<th>Item3</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="editable simpleInput">arthinking</td>
+			<td class="editable simpleInput">Jason</td>
+			<td class="editable simpleInput">itzhai</td>
+		</tr>
+		<tr>
+			<td class="editable simpleInput">arthinking</td>
+			<td class="editable simpleInput">Jason</td>
+			<td class="editable simpleInput">itzhai</td>
+		</tr>
+		<tr>
+			<td class="editable simpleInput">arthinking</td>
+			<td class="editable simpleInput">Jason</td>
+			<td class="editable simpleInput">itzhai</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>

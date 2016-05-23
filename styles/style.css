@@ -1,0 +1,23 @@
+@charset "utf-8";
+body{
+	text-shadow:#FFFFFF 1px 1px 1px; 
+}
+.editableTable{
+	width: 220px;22
+	padding: 10px;
+	background-color: #DDEEF6;
+	border:1px solid #DDEEF6;
+	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+.editableTable thead{
+	background:#FFFFCC;
+}
+td{
+	background:#66CCFF;
+	cursor:pointer;
+}
+.selectCell{
+	background:#6699FF;
+}
